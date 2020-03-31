@@ -1,0 +1,35 @@
+body {
+  background: #00796b;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spin {
+  background: #00000020;
+  height: 100px;
+  width: 100px;
+  border-radius: 100vh;
+  border: 5px solid #00000000;
+  border-top: 5px solid #fff;
+  animation: loading 1.5s linear infinite;
+}
+
+.loading {
+  position: absolute;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@keyframes loading {
+  100% {
+    transform: rotate(360deg);
+  }
+}
