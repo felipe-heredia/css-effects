@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Poppins:ital@1&display=swap");
+
+body {
+  height: 100vh;
+  font-size: 30px;
+  background-color: #fffaf5;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: Berkshire Swash;
+  font-weight: 100;
+  font-size: 48px;
+}
+
+p {
+  display: flex;
+  justify-content: center;
+  font-family: Poppins;
+  font-size: 22px;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.effect {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 45px;
+  width: 100px;
+  margin-right: 10px;
+  border-radius: 30px;
+  border: 1px solid #00001a;
+  background: #f78400;
+  cursor: pointer;
+
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+
+  transition: 0.2s;
+}
+
+.effect:hover {
+  background: #cc6d01;
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+}
